@@ -1,0 +1,74 @@
+/* Write your code here. */
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+}
+.bg {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 80vh;
+  width: 50vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-c {
+  border: 1px #fff;
+  background-color: #1d976c;
+  color: #fff;
+}
+.form-c:hover {
+  border: 1px #fff;
+  color: #fff;
+}
+
+.image {
+  height: 35vh;
+  align-self: center;
+}
+h1 {
+  color: #fff;
+}
+.bg1 {
+  display: flex;
+  justify-content: space-between;
+  height: 70vh;
+  width: 50vw;
+}
+.bg2 {
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+}
+.bg4 {
+  margin-top: 5vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 14vw;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #219a6f;
+  font-weight: bold;
+}
+.bg5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.para {
+  color: #fff;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
